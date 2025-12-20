@@ -28,5 +28,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anantrajputcode&show_icons=true&locale=en&layout=compact" alt="anantrajputcode" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=anantrajputcode&show_icons=true&locale=en" alt="anantrajputcode" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=anantrajputcode&" alt="anantrajputcode" /></p>
