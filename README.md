@@ -1,6 +1,6 @@
-# Hi 👋, I'm Anant Rajput
+<h1 align="center">Hey 👋 I'm Anant Rajput</h1>
 
-### A passionate developer
+<h1 align="center">A passionate developer
 
 <p align="left"> <a href="https://twitter.com/anantrajput2006" target="blank"><img src="https://img.shields.io/twitter/follow/anantrajput2006?logo=twitter&style=for-the-badge" alt="anantrajput2006" /></a> </p>
 
