@@ -1,8 +1,6 @@
 <<h1 align="center">Hi 👋, Anant Rajput</h1>
 <h3 align="center">A passionate developer from India</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=anantrajputcode" alt="anantrajputcode" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/anantrajput2006" target="blank"><img src="https://img.shields.io/twitter/follow/anantrajput2006?logo=twitter&style=for-the-badge" alt="anantrajput2006" /></a> </p>
 
 - 🔭 I’m currently working on [Matops-c](https://github.com/anantrajputcode/Matops-c)
