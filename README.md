@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Matops-c](https://github.com/anantrajputcode/Matops-c)
 
-- 🌱 I’m currently learning **C, DSA**
+- 🌱 I’m currently learning **C, C++**
 
 - 👯 I’m looking to collaborate on [Gradebook-c](https://github.com/anantrajputcode/gradebook-c)
 
