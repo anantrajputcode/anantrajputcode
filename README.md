@@ -32,7 +32,7 @@
 
 ---
 
-### 🔧 Languages and Tools (2x3 Matrix)
+### 🔧 Languages and Tools
 
 <table>
   <tr>
@@ -79,7 +79,7 @@
 
 ---
 
-### 🤝 Connect with Me (1x3 Matrix)
+### 🤝 Connect with Me
 
 <table>
   <tr>
