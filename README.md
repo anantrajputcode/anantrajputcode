@@ -11,10 +11,11 @@
 
 ### ⚡ Technical Overview
 
-- **Current Focus:** Engineering [Matops-c](https://github.com/anantrajputcode/Matops-c) — A high-performance library for Matrix Operations & Numerical Analysis.
-- **Specialization:** Systems Programming in **C/C++**, Hardware integration with **ESP32**, and **DevOps** automation.
-- **Contributions:** Active developer within **The-Navigators-Org** and **me50** (CS50) environments.
-- **Philosophy:** Building robust, scalable projects is the ultimate form of learning.
+- **Focus:** Engineering [Matops-c](https://github.com/anantrajputcode/Matops-c) — A library for high-performance matrix operations and numerical analysis.
+- **Learning:** Mastering **C/C++**, exploring **DevOps**, and diving into **Generative AI** on Oracle Cloud.
+- **Collaboration:** Open to contributing to [Gradebook-c](https://github.com/anantrajputcode/gradebook-c).
+- **Activity:** Active member of **The-Navigators-Org** and contributor to **me50** (CS50).
+- **Fun fact:** I learn faster by building projects than by watching tutorials. My contribution graph is my playground!
 
 ---
 
@@ -31,36 +32,54 @@
 
 ---
 
-### 🔧 Stack & Competencies
+### 🔧 Languages and Tools (2x3 Matrix)
 
 <table>
   <tr>
     <td align="center" width="110">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" alt="C" /><br /><b>C</b>
+      <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40" height="40" alt="C" />
+      </a>
+      <br /><b>C</b>
     </td>
     <td align="center" width="110">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++" /><br /><b>C++</b>
+      <a href="https://isocpp.org/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++" />
+      </a>
+      <br /><b>C++</b>
     </td>
     <td align="center" width="110">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" /><br /><b>Python</b>
+      <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" />
+      </a>
+      <br /><b>Python</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="110">
-      <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40" height="40" alt="Arduino" /><br /><b>Embedded</b>
+      <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
+        <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40" height="40" alt="Arduino" />
+      </a>
+      <br /><b>Embedded</b>
     </td>
     <td align="center" width="110">
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" alt="Git" /><br /><b>Git</b>
+      <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" alt="Git" />
+      </a>
+      <br /><b>Git</b>
     </td>
     <td align="center" width="110">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" /><br /><b>Linux</b>
+      <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
+      </a>
+      <br /><b>Linux</b>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🤝 Professional Networking
+### 🤝 Connect with Me (1x3 Matrix)
 
 <table>
   <tr>
