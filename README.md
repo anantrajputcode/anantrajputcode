@@ -1,6 +1,6 @@
 <div align="center">
   <h1><img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="30" height="30" alt="hi">
-  Hi, I’m Anant <img src="https://user-images.githubusercontent.com/63050133/156777293-72a6e681-2582-4a9d-ad92-09d1181d47c7.gif" width="30" height="30"></h1>
+  Hi, I’m Anant Rajput <img src="https://user-images.githubusercontent.com/63050133/156777293-72a6e681-2582-4a9d-ad92-09d1181d47c7.gif" width="30" height="30"></h1>
   
   <h3 align="center">Software Developer | C & C++ Specialist | Open Source Contributor</h3>
   <p align="center">I learn faster by building projects than by watching tutorials. My contribution graph is my playground! 🛠️</p>
