@@ -15,7 +15,7 @@ USER_NAME = os.environ['USER_NAME']  # 'anantrajputcode'
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 # My birthday, used for the age counter on the stats card
-BIRTHDAY = datetime.datetime(2006, 6, 9)
+BIRTHDAY = datetime.datetime(2006, 9, 6)
 
 
 def daily_readme(birthday):

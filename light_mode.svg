@@ -47,16 +47,16 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="30">anant@rajput</tspan> -———————————————————————————————————————————-—-
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">macOS, Linux</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">-- years, -- months, -- days</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Invertis University, Bareilly</tspan>
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Google Student Ambassador</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Invertis Univ. | Google Student Ambassador</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Aspiring DevOps &amp; Cloud Engineer</tspan>
 <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Neovim, VS Code</tspan>
 <tspan x="390" y="150" class="cc">. </tspan>
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">C, C++, Python, Bash</tspan>
-<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Tools</tspan>.<tspan class="key">Systems</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Git, Linux, Docker</tspan>
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Cloud</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">AWS EC2, PostgreSQL</tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Cloud</tspan>.<tspan class="key">Platform</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">AWS (EC2, IAM basics)</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">DevOps</tspan>.<tspan class="key">Tools</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Docker, Git, CI/CD, Linux</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Scripting</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Bash, Python</tspan>
 <tspan x="390" y="230" class="cc">. </tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Coding</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Competitive Programming (LeetCode)</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">IoT &amp; Embedded Systems (ESP32, MPU6050)</tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Project</tspan>.<tspan class="key">Cloud</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">EC2Connect — AWS SSH automation</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Project</tspan>.<tspan class="key">DevOps</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Docker Containerization — Dockerfile + Hub</tspan>
 <tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
 <tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">anant2006@gmail.com</tspan>
 <tspan x="390" y="350" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">anant-rajput-947869322</tspan>
