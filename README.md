@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Hi 👋, I'm Anant</h1>
 <h3 align="center">B.Tech Computer Science student | Building with C/C++, Python, IoT & the Cloud</h3>
 
@@ -7,6 +8,15 @@
   Ambassador. Familiar with Git, Linux, Docker, and basic cloud infrastructure (AWS EC2) — always
   building and always learning.
 </p>
+=======
+<div align="center">
+  <h1><img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="30" height="30" alt="hi">
+  Hi, I’m Anant Rajput <img src="https://user-images.githubusercontent.com/63050133/156777293-72a6e681-2582-4a9d-ad92-09d1181d47c7.gif" width="30" height="30"></h1>
+  
+  <h3 align="center">Software Developer | C & C++ Specialist | Open Source Contributor</h3>
+  <p align="center">I learn faster by building projects than by watching tutorials. My contribution graph is my playground! 🛠️</p>
+</div>
+>>>>>>> 6e93de8f29e6c3c3e41bd170ef268a78caff33d0
 
 ---
 
@@ -50,8 +60,16 @@
 ### 🌐 Connect with me
 
 <p align="left">
+<<<<<<< HEAD
   <a href="https://www.linkedin.com/in/anant-rajput-947869322" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
   <a href="https://leetcode.com/u/AnantRajputCodes" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" /></a>
   <a href="https://hub.docker.com/u/anantrajputcode" target="_blank"><img src="https://img.shields.io/badge/Docker%20Hub-2496ED?style=flat&logo=docker&logoColor=white" /></a>
   <a href="mailto:anant2006@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+=======
+  <a href="https://linkedin.com/in/anant-rajput-947869322/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/anantrajput2006" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="https://instagram.com/rajput_anant_06" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.reddit.com/user/Anant_Rajput/" target="blank"><img src="https://img.shields.io/badge/Reddit-000000?style=for-the-badge&logo=reddit&logoColor=FF4500" /></a>
+  <a href="https://codeforces.com/profile/anantrajputcode" target="blank"><img src="https://img.shields.io/badge/Codeforces-000000?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+>>>>>>> 6e93de8f29e6c3c3e41bd170ef268a78caff33d0
 </p>
