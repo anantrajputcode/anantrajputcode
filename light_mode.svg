@@ -1,32 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="270" viewBox="0 0 500 270">
-  <style>
-    .card { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
-    .title { font: 600 18px 'Courier New', Courier, monospace; fill: #0969da; }
-    .stat { font: 14px 'Courier New', Courier, monospace; fill: #24292f; white-space: pre; }
-    .dots { fill: #afb8c1; }
-    .value { fill: #0969da; font-weight: 600; }
-  </style>
-
-  <rect class="card" x="0.5" y="0.5" width="499" height="269" rx="10"/>
-
-  <text x="25" y="38" class="title">Anant's GitHub Stats</text>
-  <line x1="25" y1="50" x2="475" y2="50" stroke="#d0d7de" stroke-width="1"/>
-
-  <text x="25" y="80" class="stat" xml:space="preserve">🎂 Age:<tspan id="age_data_dots" class="dots"> ..................... </tspan><tspan id="age_data" class="value">--</tspan></text>
-
-  <text x="25" y="106" class="stat" xml:space="preserve">📦 Repositories:<tspan id="repo_data_dots" class="dots"> ......... </tspan><tspan id="repo_data" class="value">--</tspan></text>
-
-  <text x="25" y="132" class="stat" xml:space="preserve">🤝 Contributed To:<tspan id="contrib_data_dots" class="dots"> ....... </tspan><tspan id="contrib_data" class="value">--</tspan></text>
-
-  <text x="25" y="158" class="stat" xml:space="preserve">💾 Total Commits:<tspan id="commit_data_dots" class="dots"> ........ </tspan><tspan id="commit_data" class="value">--</tspan></text>
-
-  <text x="25" y="184" class="stat" xml:space="preserve">🌟 Total Stars:<tspan id="star_data_dots" class="dots"> .......... </tspan><tspan id="star_data" class="value">--</tspan></text>
-
-  <text x="25" y="210" class="stat" xml:space="preserve">👥 Followers:<tspan id="follower_data_dots" class="dots"> ........... </tspan><tspan id="follower_data" class="value">--</tspan></text>
-
-  <line x1="25" y1="222" x2="475" y2="222" stroke="#d0d7de" stroke-width="1"/>
-
-  <text x="25" y="244" class="stat" xml:space="preserve">📈 Lines of Code:<tspan id="loc_data_dots" class="dots"> ........ </tspan><tspan id="loc_data" class="value">--</tspan></text>
-
-  <text x="25" y="262" class="stat" xml:space="preserve">   (<tspan id="loc_add" class="value" fill="#1a7f37">--</tspan>++, <tspan id="loc_del" class="value" fill="#cf222e">--</tspan>--<tspan id="loc_del_dots" class="dots"></tspan>)</text>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #953800;}
+.value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #c2cfde;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">            ;;,, ,;,|g;~,,                      </tspan>
+<tspan x="15" y="50">         ,g@@@@@@l&amp;$$$@|,w$$@gy,            </tspan>
+<tspan x="15" y="70">        $@@@@@@@@@@$@@@@@@@@$$MW$k              </tspan>
+<tspan x="15" y="90">       $$@@@@@@B@@@@@@@@@@@@@$@$$g,$            </tspan>
+<tspan x="15" y="110">     g@llM**'''||%@@@@@$@@$@@@@@@@L$&amp;      </tspan>
+<tspan x="15" y="130">   @$&amp;$F         ''T%M$@@@@@@@@@@@$@$@     </tspan>
+<tspan x="15" y="150">  @@@@F              ']@@@@@@$$@$@@@@          </tspan>
+<tspan x="15" y="170">  @@@$L               |$@@@$$l$@@@@$F          </tspan>
+<tspan x="15" y="190"> ]@@@@L ,@@$@@@@L  ,l@$$$$$$$$$@@@@@           </tspan>
+<tspan x="15" y="210">  %$@@@$}',,gg@||@@@@l@g@ggg|l$&amp;$@@$       </tspan>
+<tspan x="15" y="230">  ]@@@@@'"*TTTTT'F  ]Wl|||''"'$]@@@@ </tspan>
+<tspan x="15" y="250">   $$@M$       ,#    ]gg,,,,,.r'$@$            </tspan>
+<tspan x="15" y="270">    &amp;$L        ' ,, ,,,'T''`    $$L        </tspan>
+<tspan x="15" y="290">     lL         T"||||!   `-    l"'  </tspan>
+<tspan x="15" y="310">     ' |        '||l||||"|L|  L `         </tspan>
+<tspan x="15" y="330">      ''   '|L++=*****""*"||` L|</tspan>
+<tspan x="15" y="350">        |           ,,      |||F               </tspan>
+<tspan x="15" y="370">        '         |||||||| ||l$                </tspan>
+<tspan x="15" y="390">          !                |l&amp;L            </tspan>
+<tspan x="15" y="410">           '!,       |||,||@M|L                </tspan>
+<tspan x="15" y="430">            ||l&amp;$@$$@$$$@$MT|||            </tspan>
+<tspan x="15" y="450">         |    |||lll$$llll|||||L               </tspan>
+<tspan x="15" y="470">    ,;y@        ||||||l||@|||||l               </tspan>
+<tspan x="15" y="490">,g$@$$$@         |||||||||||||||| $g,          </tspan>
+<tspan x="15" y="510">$$$$$$$$@    |    |||||||||||||| |$$@g         </tspan>
+</text>
+<text x="390" y="30" fill="#24292f">
+<tspan x="390" y="30">anant@rajput</tspan> -———————————————————————————————————————————-—-
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">macOS, Linux</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">-- years, -- months, -- days</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Invertis University, Bareilly</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Google Student Ambassador</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Neovim, VS Code</tspan>
+<tspan x="390" y="150" class="cc">. </tspan>
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">C, C++, Python, Bash</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Tools</tspan>.<tspan class="key">Systems</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Git, Linux, Docker</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Cloud</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">AWS EC2, PostgreSQL</tspan>
+<tspan x="390" y="230" class="cc">. </tspan>
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Coding</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Competitive Programming (LeetCode)</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">IoT &amp; Embedded Systems (ESP32, MPU6050)</tspan>
+<tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">anant2006@gmail.com</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">anant-rajput-947869322</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">LeetCode</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">AnantRajputCodes</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Docker Hub</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">anantrajputcode</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">anantrajputcode</tspan>
+<tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">--</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">--</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........... </tspan><tspan class="value" id="star_data">--</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ................. </tspan><tspan class="value" id="commit_data">--</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan class="value" id="follower_data">--</tspan>
+<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">--</tspan> ( <tspan class="addColor" id="loc_add">--</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">--</tspan><tspan class="delColor">--</tspan> )
+</text>
 </svg>
