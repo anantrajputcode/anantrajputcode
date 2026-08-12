@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="270" viewBox="0 0 500 270">
+  <style>
+    .card { fill: #ffffff; stroke: #d0d7de; stroke-width: 1; }
+    .title { font: 600 18px 'Courier New', Courier, monospace; fill: #0969da; }
+    .stat { font: 14px 'Courier New', Courier, monospace; fill: #24292f; white-space: pre; }
+    .dots { fill: #afb8c1; }
+    .value { fill: #0969da; font-weight: 600; }
+  </style>
+
+  <rect class="card" x="0.5" y="0.5" width="499" height="269" rx="10"/>
+
+  <text x="25" y="38" class="title">Anant's GitHub Stats</text>
+  <line x1="25" y1="50" x2="475" y2="50" stroke="#d0d7de" stroke-width="1"/>
+
+  <text x="25" y="80" class="stat" xml:space="preserve">🎂 Age:<tspan id="age_data_dots" class="dots"> ..................... </tspan><tspan id="age_data" class="value">--</tspan></text>
+
+  <text x="25" y="106" class="stat" xml:space="preserve">📦 Repositories:<tspan id="repo_data_dots" class="dots"> ......... </tspan><tspan id="repo_data" class="value">--</tspan></text>
+
+  <text x="25" y="132" class="stat" xml:space="preserve">🤝 Contributed To:<tspan id="contrib_data_dots" class="dots"> ....... </tspan><tspan id="contrib_data" class="value">--</tspan></text>
+
+  <text x="25" y="158" class="stat" xml:space="preserve">💾 Total Commits:<tspan id="commit_data_dots" class="dots"> ........ </tspan><tspan id="commit_data" class="value">--</tspan></text>
+
+  <text x="25" y="184" class="stat" xml:space="preserve">🌟 Total Stars:<tspan id="star_data_dots" class="dots"> .......... </tspan><tspan id="star_data" class="value">--</tspan></text>
+
+  <text x="25" y="210" class="stat" xml:space="preserve">👥 Followers:<tspan id="follower_data_dots" class="dots"> ........... </tspan><tspan id="follower_data" class="value">--</tspan></text>
+
+  <line x1="25" y1="222" x2="475" y2="222" stroke="#d0d7de" stroke-width="1"/>
+
+  <text x="25" y="244" class="stat" xml:space="preserve">📈 Lines of Code:<tspan id="loc_data_dots" class="dots"> ........ </tspan><tspan id="loc_data" class="value">--</tspan></text>
+
+  <text x="25" y="262" class="stat" xml:space="preserve">   (<tspan id="loc_add" class="value" fill="#1a7f37">--</tspan>++, <tspan id="loc_del" class="value" fill="#cf222e">--</tspan>--<tspan id="loc_del_dots" class="dots"></tspan>)</text>
+</svg>
