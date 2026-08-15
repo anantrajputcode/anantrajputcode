@@ -126,33 +126,95 @@
     </ellipse>
 
     <g clip-path="url(#leftClip)">
-      <g font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="12.5" fill="url(#asciiGrad)" xml:space="preserve">
-        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite" additive="sum"/>
+      <!-- background kanji watermark -->
+      <text x="236" y="300" text-anchor="middle" font-family="'Noto Serif JP','Hiragino Mincho ProN',serif" font-size="320" font-weight="700" fill="url(#asciiGrad)" opacity="0.045">侍</text>
 
-        <text x="42" y="98"><tspan opacity="0">        _______________<animate attributeName="opacity" begin="0.3s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="117"><tspan opacity="0">       /               \<animate attributeName="opacity" begin="0.45s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="136"><tspan opacity="0">      /    .-----.      \<animate attributeName="opacity" begin="0.6s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="155"><tspan opacity="0">     |    /  o o  \     |<animate attributeName="opacity" begin="0.75s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="174"><tspan opacity="0">     |   |    ^    |    |<animate attributeName="opacity" begin="0.9s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="193"><tspan opacity="0">     |    \  ---  /     |<animate attributeName="opacity" begin="1.05s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="212"><tspan opacity="0">      \    '-----'     /<animate attributeName="opacity" begin="1.2s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="231"><tspan opacity="0">       \_____________/<animate attributeName="opacity" begin="1.35s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="250"><tspan opacity="0">            | | |<animate attributeName="opacity" begin="1.5s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="269"><tspan opacity="0">            | | |<animate attributeName="opacity" begin="1.65s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="288"><tspan opacity="0">       _____|_|_|_____<animate attributeName="opacity" begin="1.8s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="307"><tspan opacity="0">      |               |<animate attributeName="opacity" begin="1.95s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="326"><tspan opacity="0">      |   A N A N T   |<animate attributeName="opacity" begin="2.1s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="345"><tspan opacity="0">      |_______________|<animate attributeName="opacity" begin="2.25s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="364"><tspan opacity="0">       ___    ___<animate attributeName="opacity" begin="2.4s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="383"><tspan opacity="0">      |   |  |   |<animate attributeName="opacity" begin="2.55s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="402"><tspan opacity="0">      |___|  |___|<animate attributeName="opacity" begin="2.7s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-
-        <text x="42" y="434" font-size="12" fill="#475569"><tspan opacity="0">$ whoami<animate attributeName="opacity" begin="3.0s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="453" font-size="12" fill="#0891B2"><tspan opacity="0">&gt; anant_rajput<animate attributeName="opacity" begin="3.2s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
-        <text x="42" y="472" font-size="12" fill="#475569"><tspan opacity="0">$ status: online<animate attributeName="opacity" begin="3.4s" dur="0.4s" to="1" fill="freeze"/></tspan><tspan fill="#06B6D4" opacity="0">_
-          <animate attributeName="opacity" begin="3.4s" dur="1s" values="1;0;1" repeatCount="indefinite"/>
-        </tspan></text>
+      <!-- HUD corner brackets -->
+      <g stroke="url(#accentGrad)" stroke-width="1.6" fill="none" opacity="0.8">
+        <path d="M132,80 L132,64 L148,64"/>
+        <path d="M324,64 L340,64 L340,80"/>
+        <path d="M132,256 L132,272 L148,272"/>
+        <path d="M324,272 L340,272 L340,256"/>
       </g>
+      <!-- rotating emblem rings -->
+      <g opacity="0">
+        <animate attributeName="opacity" begin="0.2s" dur="0.6s" to="1" fill="freeze"/>
+        <circle cx="236" cy="168" r="88" fill="none" stroke="url(#accentGrad)" stroke-width="1.4" stroke-dasharray="3 7" opacity="0.7">
+          <animateTransform attributeName="transform" type="rotate" from="0 236 168" to="360 236 168" dur="22s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="236" cy="168" r="74" fill="none" stroke="#475569" stroke-width="1" opacity="0.35"/>
+        <circle cx="236" cy="168" r="97" fill="none" stroke="#06B6D4" stroke-width="0.8" stroke-dasharray="1 5" opacity="0.4">
+          <animateTransform attributeName="transform" type="rotate" from="360 236 168" to="0 236 168" dur="30s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <!-- sparkle accents -->
+      <g fill="#06B6D4">
+        <path transform="translate(144,100)" d="M0,-7.7 L1.9,-1.9 L7.7,0 L1.9,1.9 L0,7.7 L-1.9,1.9 L-7.7,0 L-1.9,-1.9 Z" opacity="0.15">
+          <animate attributeName="opacity" values="0.1;0.85;0.1" dur="2.6s" begin="0s" repeatCount="indefinite"/>
+        </path>
+        <path transform="translate(332,116)" d="M0,-5.8 L1.4,-1.4 L5.8,0 L1.4,1.4 L0,5.8 L-1.4,1.4 L-5.8,0 L-1.4,-1.4 Z" opacity="0.15">
+          <animate attributeName="opacity" values="0.1;0.85;0.1" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+        </path>
+        <path transform="translate(148,248)" d="M0,-6.2 L1.6,-1.6 L6.2,0 L1.6,1.6 L0,6.2 L-1.6,1.6 L-6.2,0 L-1.6,-1.6 Z" opacity="0.15">
+          <animate attributeName="opacity" values="0.1;0.85;0.1" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+        </path>
+        <path transform="translate(326,240)" d="M0,-7.2 L1.8,-1.8 L7.2,0 L1.8,1.8 L0,7.2 L-1.8,1.8 L-7.2,0 L-1.8,-1.8 Z" opacity="0.15">
+          <animate attributeName="opacity" values="0.1;0.85;0.1" dur="2.6s" begin="1.9s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- monogram -->
+      <text x="236" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="74" font-weight="800" letter-spacing="-3" fill="url(#asciiGrad)" opacity="0">
+        AR
+        <animate attributeName="opacity" begin="0.5s" dur="0.6s" to="1" fill="freeze"/>
+      </text>
+      <!-- name -->
+      <text x="236" y="298" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="25" font-weight="800" letter-spacing="3" fill="url(#accentGrad)" opacity="0">
+        ANANT RAJPUT
+        <animate attributeName="opacity" begin="1.0s" dur="0.6s" to="1" fill="freeze"/>
+      </text>
+      <text x="236" y="323" text-anchor="middle" font-size="12.5" font-style="italic" fill="#475569" opacity="0">
+        // deploying clouds, taming pipelines
+        <animate attributeName="opacity" begin="1.3s" dur="0.5s" to="1" fill="freeze"/>
+      </text>
+      <g opacity="0"><animate attributeName="opacity" begin="1.5s" dur="0.5s" to="1" fill="freeze"/>
+        <line x1="66" y1="345" x2="226" y2="345" stroke="#475569" stroke-opacity="0.25" stroke-width="1"/>
+        <rect x="232" y="341" width="8" height="8" fill="url(#accentGrad)" transform="rotate(45 236 345)"/>
+        <line x1="246" y1="345" x2="406" y2="345" stroke="#475569" stroke-opacity="0.25" stroke-width="1"/>
+      </g>
+      <!-- stat bars -->
+      <g opacity="0"><animate attributeName="opacity" begin="1.7s" dur="0.5s" to="1" fill="freeze"/>
+        <text x="42" y="380" font-size="11" letter-spacing="1" fill="#475569">POWER</text>
+        <rect x="132" y="370" width="210" height="7" rx="3.5" fill="rgba(15,23,42,.06)" stroke="rgba(15,23,42,.10)" stroke-width="1"/>
+        <rect x="132" y="370" width="0" height="7" rx="3.5" fill="url(#accentGrad)">
+          <animate attributeName="width" begin="1.8499999999999999s" dur="0.8s" to="193" fill="freeze"/>
+        </rect>
+        <text x="406" y="380" text-anchor="end" font-size="11" fill="#0F172A">92%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" begin="1.9s" dur="0.5s" to="1" fill="freeze"/>
+        <text x="42" y="408" font-size="11" letter-spacing="1" fill="#475569">FOCUS</text>
+        <rect x="132" y="398" width="210" height="7" rx="3.5" fill="rgba(15,23,42,.06)" stroke="rgba(15,23,42,.10)" stroke-width="1"/>
+        <rect x="132" y="398" width="0" height="7" rx="3.5" fill="url(#accentGrad)">
+          <animate attributeName="width" begin="2.05s" dur="0.8s" to="183" fill="freeze"/>
+        </rect>
+        <text x="406" y="408" text-anchor="end" font-size="11" fill="#0F172A">87%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" begin="2.1s" dur="0.5s" to="1" fill="freeze"/>
+        <text x="42" y="436" font-size="11" letter-spacing="1" fill="#475569">CREATE</text>
+        <rect x="132" y="426" width="210" height="7" rx="3.5" fill="rgba(15,23,42,.06)" stroke="rgba(15,23,42,.10)" stroke-width="1"/>
+        <rect x="132" y="426" width="0" height="7" rx="3.5" fill="url(#accentGrad)">
+          <animate attributeName="width" begin="2.25s" dur="0.8s" to="200" fill="freeze"/>
+        </rect>
+        <text x="406" y="436" text-anchor="end" font-size="11" fill="#0F172A">95%</text>
+      </g>
+      <g opacity="0"><animate attributeName="opacity" begin="2.4s" dur="0.5s" to="1" fill="freeze"/>
+        <line x1="42" y1="467" x2="406" y2="467" stroke="#475569" stroke-opacity="0.2" stroke-width="1"/>
+      </g>
+      <!-- terminal -->
+      <text x="42" y="495" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="12.5" fill="#475569"><tspan opacity="0">$ whoami<animate attributeName="opacity" begin="2.6s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
+      <text x="42" y="515" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="12.5" fill="#06B6D4"><tspan opacity="0">&gt; anant_rajput<animate attributeName="opacity" begin="2.75s" dur="0.4s" to="1" fill="freeze"/></tspan></text>
+      <text x="42" y="535" font-family="'SF Mono','Fira Code',Consolas,monospace" font-size="12.5" fill="#475569"><tspan opacity="0">$ status: online<animate attributeName="opacity" begin="2.9s" dur="0.4s" to="1" fill="freeze"/></tspan><tspan fill="#06B6D4" opacity="0">_
+        <animate attributeName="opacity" begin="2.9s" dur="1s" values="1;0;1" repeatCount="indefinite"/>
+      </tspan></text>
 
       <!-- scanline sweep -->
       <rect x="24" y="24" width="424" height="3" fill="url(#scanGrad)">
